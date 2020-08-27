@@ -57,6 +57,12 @@ export default defineConfig({
               component: './Welcome',
             },
             {
+              path: '/detail',
+              name: 'detail',
+              icon: 'smile',
+              component: './Detail',
+            },
+            {
               path: '/admin',
               name: 'admin',
               icon: 'crown',
